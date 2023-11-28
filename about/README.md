@@ -1,1 +1,0 @@
-# tour-and-travel-november-9-tr
