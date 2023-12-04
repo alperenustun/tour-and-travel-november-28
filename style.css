@@ -1,41 +1,132 @@
-
-.fly{
-    width: 133.385px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-top: 250px;
-    margin-left: 100px;
-    margin-right: 10px;
-    opacity: 0.44;
+.seciton{
+    width: 760px;
+    height: 299px;
+    display: inline;
+    display: flex;
 
 
 }
-.trivago{
-    margin-right: 10px;
-    margin-left: 120px;
-    width: 155px;
-    height: 50px;
-    flex-shrink: 0;
-    width: 221px
+.seciton-2{
+position: absolute;
+left: 49.7%;
+top: 0%;
+width: 760px;
+height: 299px;
+flex-shrink: 0;
+}
+.buton{
+    position: absolute;
+    left: 68%;
+    top: 26%;
+    display: flex;
+    width: 176.561px;
+    height: 56.416px;
+    padding: 0px 36.566px 9.403px 0.1px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.447px;
+    font-family: Poppins;
+    font-size: 18.716px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.1);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
 
-}
-.airbnb{
-    margin-right: 20px;
-    margin-left: 120px;
-    width: 150.465px;
-    height: 50px;
-    flex-shrink: 0;
-}
-.turkish{
-    margin-left: 65px;
-    width: 162px;
-    height: 50px;
-    flex-shrink: 0;
-}
-.swis{
+.butonIci{
+    position: absolute;
+    left: 18%;
+    top: 27%;
+    display: flex;
+    width: 176.561px;
+    height: 56.416px;
+    padding: 0px 36.566px 9.403px 0.1px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.447px;
+    font-family: Poppins;
+    font-size: 18.716px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.1);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    
+
   
-    margin-left: 120px;
-    width: 201px;
-    height: 50px;
-    flex-shrink: 0;
+ 
 }
+
+.pro-2{
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    color: #f7f2f1;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .ex-2{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+  }
+  .pro{
+    position: absolute;
+    top: 13%;
+    left: 70%;
+    color: #FFEFEC;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+
+  }
+  .ex{
+    position: absolute;
+    top: 14%;
+    left: 65%;
+    color: #FFEFEC;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.042px;
+  }
+  .icon{
+    position: absolute;
+    top: 23%;
+    left: 29%;
+    width: 187px;
+    height: 19px;
+
+  }
+  .icon-2{
+position: absolute;
+top: 22%;
+left: 76%;
+width: 212px;
+height: 21px;
+flex-shrink: 0;
+  }
