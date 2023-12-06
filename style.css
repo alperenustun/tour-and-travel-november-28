@@ -1,41 +1,33 @@
-
-.fly{
-    width: 133.385px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-top: 250px;
-    margin-left: 100px;
-    margin-right: 10px;
-    opacity: 0.44;
-
-
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background: #f7f7f7;
+  height: 100px;
 }
-.trivago{
-    margin-right: 10px;
-    margin-left: 120px;
-    width: 155px;
-    height: 50px;
-    flex-shrink: 0;
-    width: 221px
-
+.logo {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
 }
-.airbnb{
-    margin-right: 20px;
-    margin-left: 120px;
-    width: 150.465px;
-    height: 50px;
-    flex-shrink: 0;
+.Trivago-logo {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
 }
-.turkish{
-    margin-left: 65px;
-    width: 162px;
-    height: 50px;
-    flex-shrink: 0;
+.air {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
 }
-.swis{
-  
-    margin-left: 120px;
-    width: 201px;
-    height: 50px;
-    flex-shrink: 0;
+.turk {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.swis {
+  width: 143.385px;
+  height: 50px;
+  flex-shrink: 0;
 }
