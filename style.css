@@ -6,63 +6,51 @@
   background-size: cover;
   background-position: center;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .explore-box1 {
   background-image: url("images/seciton.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .explore-box2 {
   background-image: url("images/seciton-2.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-.promotıon {
-  color: var(--white, #fff);
+.promotion {
+  color: #fff;
   text-align: center;
   font-family: Poppins;
-  font-size: 16.716px;
-  font-style: normal;
+  font-size: 16px;
   font-weight: 600;
-  line-height: normal;
- 
 }
 .explore-cities {
   color: #fff;
   font-family: Volkhov;
   font-size: 50px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 71.042px;
 }
 
 .wiew {
   display: flex;
-  width: 176.561px;
-  height: 56.416px;
-  padding: 0px 36.566px 9.403px 0px;
+  width: 176px;
+  height: 56px;
+  padding: 30px;
   justify-content: center;
   align-items: center;
-  gap: 10.447px;
-  flex-shrink: 0;
+  gap: 10px;
   border-radius: 10px;
   border: 2px solid #fff;
   background-color: transparent;
-  color: var(--white, #fff);
+  color: #fff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 16.716px;
-  font-style: normal;
+  font-size: 16px;
   font-weight: 600;
-  line-height: normal;
+  cursor: pointer;
 }
 .icon {
   margin-left: 230px;
   margin-bottom: 15px;
   width: 187px;
   height: 19px;
-  flex-shrink: 0;
 }
