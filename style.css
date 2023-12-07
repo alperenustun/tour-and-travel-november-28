@@ -1,33 +1,15 @@
-div {
+.image-layout {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 70px;
   background: #f7f7f7;
   height: 100px;
+
 }
-.logo {
-  width: 143.385px;
+
+.logo{
+  width: 143px;
   height: 50px;
-  flex-shrink: 0;
-}
-.Trivago-logo {
-  width: 143.385px;
-  height: 50px;
-  flex-shrink: 0;
-}
-.air {
-  width: 143.385px;
-  height: 50px;
-  flex-shrink: 0;
-}
-.turk {
-  width: 143.385px;
-  height: 50px;
-  flex-shrink: 0;
-}
-.swis {
-  width: 143.385px;
-  height: 50px;
-  flex-shrink: 0;
+
 }
