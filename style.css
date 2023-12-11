@@ -1,4 +1,4 @@
-.contend-box {
+.content-box {
   background-color: #ffff;
   padding: 70px;
   text-align: center;
@@ -58,7 +58,6 @@
 
 .custom-input {
   display: inline-flex;
-  border: 1px solid #ccc;
   border-radius: 10px;
 }
 .footer-text {
@@ -73,6 +72,8 @@
   height: 50px;
   border-radius: 10px;
   background: #df6951;
+  border: none;
+  color: #eef;
 }
 .copy-right {
   display: flex;
