@@ -1,4 +1,4 @@
-.image-layout {
+.partners-images {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,8 +8,8 @@
 
 }
 
-.logo{
+.partners-logo{
   width: 143px;
-  height: 50px;
+  height: 40px;
 
 }
