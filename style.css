@@ -1,0 +1,40 @@
+.package-box {
+  background-image: url(images/ana-ekran.png);
+    height: 760px;
+}
+
+
+.nav-travel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  gap: 50px;
+}
+.travel-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.header-button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #df6951;
+  color: #fff;
+  border-radius: 20px;
+  width: 152px;
+  height: 58px;
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 200px;
+}
