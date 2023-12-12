@@ -1,3 +1,52 @@
+.hm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.hm-subtitle {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  size: 18px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.hm-title {
+  width: 583px;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 71.04px;
+  color: #181e4b;
+  margin-bottom: 15px;
+}
+
+.hm-description {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  width: 583px;
+  size: 16px;
+  line-height: 26px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.hm-view-btn {
+  width: 176.56px;
+  height: 56.42px;
+  border-radius: 10px;
+  padding: auto;
+  color: white;
+  background: #df6951;
+  border-color: #df6951;
+  border-style: solid;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 25.07px;
+  font-size: 16.72px;
+}
+
 .section-sst {
   margin: 0 auto;
   max-width: 1483px;
