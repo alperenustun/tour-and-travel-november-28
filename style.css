@@ -1,40 +1,71 @@
-.package-box {
-  background-image: url(images/ana-ekran.png);
-    height: 760px;
+.packages {
+  display: flex;
 }
-
-
 .nav-travel {
+  background-image: url(images/ana-ekran.png);
+  height: 768px;
+  width: 1928px;
+}
+.list-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 60px;
   color: #fff;
   font-family: Circular Std;
   font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  gap: 50px;
 }
-.travel-box1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 200px;
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 120px;
 }
-.header-button {
-  display:flex;
+.button-img {
+  display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 120px;
   background-color: #df6951;
-  color: #fff;
-  border-radius: 20px;
-  width: 152px;
-  height: 58px;
-  color: #fff;
-  font-family: Circular Std;
-  font-size: 17px;
-  cursor: pointer;
-  margin-left: 200px;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 10px;
+}
+.land {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.yan-yana {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  transform: translateY(-70px);
+  width: 1300px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 170px;
+  padding: 70px;
+}
+
+.metin,
+.metin1,
+.metin2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  gap: 20px;
 }
