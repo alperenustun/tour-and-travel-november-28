@@ -1,4 +1,4 @@
-.header {
+.custom-header {
   height: 766px;
   background: url("images/ana-ekran.png");
   background-size: cover;
@@ -11,16 +11,19 @@
   color: #fff;
   height: 67px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 250px;
+  max-width: 1100px;
+  margin: auto;
 }
 .nav-bar ul {
   display: flex;
   gap: 50px;
 }
 .nav-bar__btn {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 152px;
   height: 58px;
   background-color: #df6951;
@@ -29,11 +32,7 @@
   font-size: 17px;
   cursor: pointer;
 }
-.nav-bar__btn a {
-  position: absolute;
-  left: 24px;
-  top: 16px;
-}
+
 .content {
   margin-top: 150px;
 }
@@ -67,37 +66,28 @@
   margin: 0 auto;
   transform: translateY(-70px);
 }
-.kutu {
+.container-boxes {
   display: flex;
   width: 1328px;
   height: 141px;
   background-color: #f2f2f7;
 }
-.kutu-5 {
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 374px;
-  height: 141px;
-}
-.kutu-2,
-.kutu-3,
-.kutu-4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 318px;
+  flex: 1;
   height: 141px;
 }
 
-.ali1 {
+.container {
   display: flex;
   padding: 50px;
   width: 1328px;
   gap: 50px;
   margin-top: 50px;
 }
-.kol1 > h3 {
+.container-column-1 > h3 {
   color: #181e4b;
   font-family: Volkhov;
   font-size: 31px;
@@ -106,7 +96,7 @@
   line-height: normal;
   text-transform: capitalize;
 }
-.kol1 > p {
+.container-column-1 > p {
   width: 708px;
   height: 73px;
   color: #181e4b;
@@ -118,7 +108,7 @@
   text-transform: capitalize;
   letter-spacing: 1px;
 }
-.kol1 {
+.container-column-1 {
   background-color: red;
   display: flex;
   flex: 1;
@@ -129,27 +119,24 @@
   margin-left: auto;
   margin-right: auto;
 }
-.kol2 {
+.container-column-2 {
   background-color: #ededed;
   display: flex;
   flex: 1;
   flex-direction: column;
   width: 481px;
-  height: 1000px;
+  height: 1300px;
   padding: 30px;
   margin-bottom: 30px;
 }
-.ucak {
+.column-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 670px;
-  height: 420px;
-  margin-top: 100px;
-  margin-right: 100px;
-  border: none;
+  width: 480px;
+  margin-top: 112px;
 }
-.harita {
+.column-1-map {
   width: 704px;
   height: 594px;
   margin-top: 20px;
@@ -162,28 +149,21 @@
   gap: 10px;
   margin-top: 20px;
 }
-.kol2-buton {
+
+.col-2-buton-2,
+.col-2-buton {
   padding: 16px 11px 15px 11px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background: #df6951;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
-}
-.kol2-buton2 {
-  padding: 16px 11px 15px 11px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
+  border: none;
   background: #df6951;
   color: #fff;
   font-family: Poppins;
   font-size: 16px;
   width: 170px;
 }
-.kol2 > h3 {
+.container-column-2 > h3 {
   color: #181e4b;
   text-align: center;
   font-family: Volkhov;
@@ -192,7 +172,7 @@
   font-weight: 700;
   line-height: normal;
 }
-.kol2 > p {
+.container-column-2 > p {
   color: var(--black, #000);
   text-align: center;
   font-family: Poppins;
@@ -201,43 +181,24 @@
   font-weight: 400;
   line-height: 26px;
 }
-.iç-içe {
+
+.col-customer-2 {
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: none;
-}
-.name {
-  display: flex;
   align-items: center;
-  width: 359px;
-  height: 76px;
-  border: none;
-  gap: 50px;
+  background-color: white;
+  outline: none;
+  margin-top: 20px;
+  gap: 8px;
 }
 
-.mesaj {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 20px;
-  height: 20px;
-  border: none;
-}
 .col-2-text {
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 359px;
-  height: 76px;
-  margin-top: 20px;
-}
-.col-2-simge {
-  display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 20px;
-  height: 20px;
+  width: 350px;
+  height: 70px;
+  border: none;
 }
 
 .content-box {
