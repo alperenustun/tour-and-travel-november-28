@@ -31,11 +31,11 @@
   font-weight: 700;
 }
 
-.wiew {
+.explore-buton,
+.explore-buton-2 {
   display: flex;
   width: 176px;
   height: 56px;
-  padding: 30px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -48,7 +48,7 @@
   font-weight: 600;
   cursor: pointer;
 }
-.icon {
+.explore-icon {
   margin-left: 230px;
   margin-bottom: 15px;
   width: 187px;
