@@ -1,195 +1,200 @@
-<<<<<<<<< Temporary merge branch 1
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-.partners-images {
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Footer Section */
+.footer-section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 70px;
-  background: #f7f7f7;
-  flex-wrap: wrap;
-  padding: 30px 0;
 }
-
-.partners-logo {
-  width: 143px;
-  height: 40px;
-}
-
-.fly{
-    width: 133.385px;
-    height: 50px;
-    flex-shrink: 0;
-    margin-top: 250px;
-    margin-left: 100px;
-    margin-right: 10px;
-    opacity: 0.44;
-
-
-}
-.trivago{
-    margin-right: 10px;
-    margin-left: 120px;
-    width: 155px;
-    height: 50px;
-    flex-shrink: 0;
-    width: 221px
-
-}
-.airbnb{
-    margin-right: 20px;
-    margin-left: 120px;
-    width: 150.465px;
-    height: 50px;
-    flex-shrink: 0;
-}
-.turkish{
-    margin-left: 65px;
-    width: 162px;
-    height: 50px;
-    flex-shrink: 0;
-}
-.swis{
-  
-    margin-left: 120px;
-    width: 201px;
-    height: 50px;
-    flex-shrink: 0;
-}
-=========
-.hm-container {
+.footer-container {
+  max-width: 1202px;
+  padding: 30px;
+  margin-bottom: 4px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 150px;
-}
-
-.hm-subtitle {
-  color: #df6951;
-  font-family: "Poppins", sans-serif;
-  size: 18px;
-  line-height: 27px;
-  margin-bottom: 15px;
-}
-
-.hm-title {
-  width: 583px;
-  font-family: "Volkhov", serif;
-  font-size: 50px;
-  line-height: 71.04px;
-  color: #181e4b;
-  margin-bottom: 15px;
-}
-
-.hm-description {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  width: 583px;
-  size: 16px;
-  line-height: 26px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
-.hm-view-btn {
-  width: 176.56px;
-  height: 56.42px;
-  border-radius: 10px;
-  padding: auto;
-  color: white;
-  background: #df6951;
-  border-color: #df6951;
-  border-style: solid;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  line-height: 25.07px;
-  font-size: 16.72px;
-}
-
-.section-sst {
-  margin: 0 auto;
-  max-width: 1483px;
-  height: 751px;
   position: relative;
 }
-.sst-img-eiffel {
-  position: absolute;
-  right: 0;
-  z-index: -1;
-  top: 38px;
-}
-.sst-subtitle {
-  width: 126px;
-  height: 27px;
-  color: #df6951;
-  font-family: "Poppins", sans-serif;
-  size: 18px;
-  line-height: 27px;
-  letter-spacing: 0.1em;
-  margin-bottom: 15px;
-}
-
-.sst-title {
-  width: 639px;
-  height: 142px;
-  font-family: "Volkhov", serif;
-  font-size: 50px;
-  line-height: 71.04px;
-  color: #181e4b;
-  margin-bottom: 25px;
-}
-
-.sst-description {
-  font-family: "Poppins", sans-serif;
-  color: black;
-  width: 574px;
-  height: 103px;
-  size: 16px;
-  line-height: 26px;
-  margin-bottom: 25px;
-}
-.sst-view-btn {
-  width: 176.56px;
-  height: 56.42px;
-  border-radius: 10px;
-  border-color: none;
-  background: #df6951;
-  border-color: #df6951;
-  border-style: solid;
-  margin-bottom: 45px;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 16.72px;
-  line-height: 25.07px;
-}
-
-.sst-container-images {
-  margin-top: 25px;
+.footer-logo {
   display: flex;
-  gap: 55px;
+  width: 127px;
+  height: 64px;
+  transform: translateY(-10px);
 }
-
-.sst-image {
-  position: relative;
+.footer-content {
+  width: 1200px;
+  padding: 30px;
+  display: flex;
 }
-
-.sst-price {
-  position: absolute;
-  width: 83px;
-  height: 35px;
-  background-image: linear-gradient(#ff7255, #ba4e38);
-  border-radius: 46px;
-  top: 8px;
-  right: 16px;
+.footer-content-social {
+  flex: 1;
 }
-.sst-price-text {
-  position: absolute;
-  top: 5px;
-  left: 20px;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  width: 38px;
-  height: 24px;
+.footer-content-social > p {
+  color: #757095;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.32px;
+  width: 213px;
+}
+.footer-nav-bar {
+  display: flex;
+  flex: 3;
+}
+.footer-content-social-logos {
+  margin-top: 30px;
+  width: 128px;
+  height: 20px;
+  display: flex;
+  gap: 15px;
+}
+.footer-line {
+  width: 1200px;
+  height: 2px;
+  background: #e5e5ea;
+  margin-bottom: 40px;
+}
+.footer-bg-image {
+  width: 676px;
+  position: absolute;
+  right: -350px;
+  z-index: -1;
+}
+.footer-nav-bar-col1 {
+  flex: 1;
+}
+.footer-nav-bar-titles {
+  margin-bottom: 24px;
+  color: #181433;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
   line-height: 24px;
 }
->>>>>>>>> Temporary merge branch 2
+.footer-nav-bar-list1 {
+  color: #181433;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer-nav-bar-list2 {
+  color: #181433;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-nav-bar-col2 {
+  flex: 1;
+}
+.footer-nav-bar-col3 {
+  flex: 1;
+}
+.footer-nav-bar-input {
+  border-style: none;
+  width: 240px;
+  height: 52px;
+  background: #eef;
+  color: #181433;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  padding: 0 25px;
+}
+.footer-nav-bar-input-container {
+  display: flex;
+}
+.footer-nav-bar-btn {
+  display: flex;
+  width: 149px;
+  height: 52px;
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-nav-bar-col3 > p {
+  color: #181433;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  margin-top: 15px;
+}
+.footer-copyright {
+  color: #181433;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
+@media (max-width: 1024px) {
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px;
+  }
+  .footer-bg-image {
+    display: none;
+  }
+  .footer-nav-bar {
+    gap: 35px;
+  }
+}
+@media (max-width: 440px) {
+  .footer-nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .footer-content-social {
+    margin-left: 80px;
+    margin-bottom: 30px;
+  }
+  .footer-nav-bar-input-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
