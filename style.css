@@ -138,67 +138,67 @@
 }
 
 /*Section Client Say*/
-.section-cs{
-  display: block;
+.section-cs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   max-width: 1920px;
-  height: 768px;
   background: url("images/cs-bg-image.png");
   margin: 0px auto;
   position: relative;
 }
-.cs-header{
-  width: 639px;
-  height: 171px;
-  margin: 125px auto 95px auto;
+.cs-header {
+  margin: 0 auto 95px auto;
+  padding-top: 100px;
   text-align: center;
 }
-.cs-subtitle{
+.cs-subtitle {
   color: #df6951;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 1.8px;
   font-size: 18px;
 }
-.cs-title{
+.cs-title {
   color: #181e4b;
-  font-family: "Volkhov",sans-serif;
+  font-family: "Volkhov", sans-serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 71px;
 }
-.cs-comment{
+.cs-comment {
   width: 600px;
-  height: 337px;
   margin: 0 auto;
   position: relative;
 }
-.cs-comment-img{
+.cs-comment-img {
   position: absolute;
   top: -22%;
-  right: 35%;
+  right: 50%;
+  transform: translateX(50%);
 }
-.cs-comments-comment{
+.cs-comments-comment {
   text-align: center;
   color: black;
   font-size: 12px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.61px;
   position: relative;
   padding-top: 90px;
 }
-.cs-comments-client{
+.cs-comments-client {
   color: black;
   font-size: 12px;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.61px;
   text-align: center;
   padding-top: 5px;
 }
-.cs-comments-quote-big{
+.cs-comments-quote-big {
   width: 82px;
   height: 82px;
   z-index: 2;
@@ -206,14 +206,14 @@
   top: 25%;
   left: 13%;
 }
-.cs-comments-quote-small{
+.cs-comments-quote-small {
   width: 12px;
   height: 12px;
   position: absolute;
   bottom: 40%;
   right: 39%;
 }
-.cs-comment-left-btn{
+.cs-comment-left-btn {
   border-radius: 50%;
   width: 62px;
   height: 62px;
@@ -222,8 +222,9 @@
   position: absolute;
   left: -5.5%;
   bottom: 50%;
+  transform: translateY(50%);
 }
-.cs-comment-right-btn{
+.cs-comment-right-btn {
   border-radius: 50%;
   width: 62px;
   height: 62px;
@@ -232,13 +233,14 @@
   position: absolute;
   right: -5.5%;
   bottom: 50%;
+  transform: translateY(50%);
 }
-.cs-pagination{
+.cs-pagination {
   width: 127px;
   height: 2px;
   margin: 30px auto 66px auto;
 }
-.cs-bg-image{
+.cs-bg-image {
   position: absolute;
   bottom: 0;
   left: 0;
