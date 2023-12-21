@@ -1,17 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
 /* Footer Section */
 .footer-section {
@@ -38,7 +24,6 @@ a {
 }
 .footer-content {
   width: 1200px;
-  padding: 30px;
   display: flex;
 }
 .footer-content-social {
@@ -170,7 +155,6 @@ a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
     gap: 10px;
   }
   .footer-bg-image {
@@ -189,7 +173,7 @@ a {
     text-align: center;
   }
   .footer-content-social {
-    margin-left: 80px;
+    margin-left: 110px;
     margin-bottom: 30px;
   }
   .footer-nav-bar-input-container {
