@@ -14,11 +14,12 @@
   height: 40px;
 }
 /*Section Honeymoon*/
-.hm-container {
+.section-hm {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 150px;
+  margin: 50px 0;
 }
 
 .hm-subtitle {
@@ -30,7 +31,7 @@
 }
 
 .hm-title {
-  width: 583px;
+  max-width: 583px;
   font-family: "Volkhov", serif;
   font-size: 50px;
   line-height: 71.04px;
@@ -41,7 +42,7 @@
 .hm-description {
   font-family: "Poppins", sans-serif;
   color: black;
-  width: 583px;
+  max-width: 583px;
   size: 16px;
   line-height: 26px;
   margin-bottom: 25px;
@@ -63,11 +64,13 @@
   font-size: 16.72px;
 }
 
+.hm-image > img{
+  width: 100%;
+}
 /*Section Sightseeing*/
 .section-sst {
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 1483px;
-  height: 751px;
   position: relative;
 }
 .sst-img-eiffel {
@@ -77,8 +80,7 @@
   top: 38px;
 }
 .sst-subtitle {
-  width: 126px;
-  height: 27px;
+  max-width: 126px;
   color: #df6951;
   font-family: "Poppins", sans-serif;
   size: 18px;
@@ -86,22 +88,18 @@
   letter-spacing: 0.1em;
   margin-bottom: 15px;
 }
-
 .sst-title {
-  width: 639px;
-  height: 142px;
+  max-width: 639px;
   font-family: "Volkhov", serif;
   font-size: 50px;
   line-height: 71.04px;
   color: #181e4b;
   margin-bottom: 25px;
 }
-
 .sst-description {
   font-family: "Poppins", sans-serif;
   color: black;
-  width: 574px;
-  height: 103px;
+  max-width: 574px;
   size: 16px;
   line-height: 26px;
   margin-bottom: 25px;
@@ -120,17 +118,14 @@
   font-size: 16.72px;
   line-height: 25.07px;
 }
-
 .sst-container-images {
   margin-top: 25px;
   display: flex;
   gap: 55px;
 }
-
 .sst-image {
   position: relative;
 }
-
 .sst-price {
   position: absolute;
   width: 83px;
@@ -153,11 +148,8 @@
 }
 /*Section Client Say*/
 .section-cs {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   max-width: 1920px;
-  background: url("images/cs-bg-image.png");
+  background-image: url("images/cs-bg-image.png") ;
   margin: 0px auto;
   position: relative;
 }
@@ -224,7 +216,7 @@
   width: 12px;
   height: 12px;
   position: absolute;
-  bottom: 40%;
+  bottom: 27%;
   right: 39%;
 }
 .cs-comment-left-btn {
@@ -236,6 +228,7 @@
   position: absolute;
   left: -5.5%;
   bottom: 50%;
+  cursor: pointer;
   transform: translateY(50%);
 }
 .cs-comment-right-btn {
@@ -247,6 +240,7 @@
   position: absolute;
   right: -5.5%;
   bottom: 50%;
+  cursor: pointer;
   transform: translateY(50%);
 }
 .cs-pagination {
@@ -258,4 +252,140 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+@media (max-width: 1500px) {
+  .section-hm{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hm-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .sst-content{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1200px) {
+  .section-sst{
+    background-color: red;
+    flex-wrap: wrap;
+    background: none;
+  }
+  .sst-img-eiffel{
+    display: none;
+  }
+  .sst-container-images{
+    flex-wrap: wrap;
+  }
+  .sst-content{
+    margin: 0 auto;
+    max-width: 583px;
+  }
+  .hm-content{
+    margin: 0 auto;
+    max-width: 583px;
+  }
+  .sst-container-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cs-bg-image{
+    display: none;
+  }
+  
+
+}
+@media (max-width: 700px) {
+  .section-hm{
+    margin: 25px 10px;
+    gap: 0;
+  }
+  .hm-title{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .hm-description{
+    margin: 15px auto;
+  }
+  .section-sst{
+    margin: 10px 10px;
+  }
+  .sst-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .sst-title{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .sst-description{
+    margin: 15px auto;
+  }
+  .sst-view-btn{
+    margin: 0;
+  }
+  .sst-image {
+    width: 100%;
+  }
+  .sst-image > img {
+    width: 100%;
+  }
+  .cs-comment {
+    position: static;
+  }
+  /* .section-cs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  .cs-header{
+    margin-bottom: 25px;
+  }
+  .cs-comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .cs-comments-quote-big,
+  .cs-comments-quote-small
+  {
+    display: none;
+  }
+  .cs-comment-img{
+    position: static;
+    width: 150px;
+    margin: 0 auto;
+    transform: none;
+  }
+  .cs-comments-comment{
+    padding-top: 0;
+    width: 100%;
+  }
+  .cs-title{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .cs-btns{
+    position: static;
+    margin: 0 auto;
+    
+  }
+  .cs-comment-left-btn{
+    position: static;
+    margin-right: 10px ;
+    width: 50px;
+    height: 50px;
+  }
+  .cs-comment-right-btn{
+    position: static;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
 }
