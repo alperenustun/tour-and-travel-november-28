@@ -178,7 +178,7 @@ a {
     gap: 35px;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 650px) {
   .footer-nav-bar {
     width: 100%;
     display: flex;
