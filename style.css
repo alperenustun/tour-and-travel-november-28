@@ -1,50 +1,23 @@
-
-.cl-content {
-  position: relative;
-  max-height: 400px;
-  background-image: url("images/libert-banner.png");
-  background-size: cover;
-  background-position: center;
-
-  
+.cls-container{
+  border: 3px solid red;
 }
-.cl-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-family: Volkhov;
-  font-size: 50px;
-  height:  320px;
-  margin-right: 350px;
-  padding: 120px;
-
+.cls-col{
+  border: 3px solid green;
+ 
 }
-.cl-statue{
-  display: block;
-  position: absolute;
-  top:70%;
-  right: 40%;
+.paragrahpy{
+  color: #DF6951;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
 }
-@media screen and (max-width:1024px) {
-  .cl-title{
-    font-size: 30px;
-  }
-  .cl-statue{
-    width: 20%;
-    margin-top: -20px;
-  }
-}
-@media screen and (max-width:768px) {
-  .cl-title{
-    font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .cl-statue{
-  width: 25%;
-    margin-top:-30px;
-    margin-right: -120px;
-  
-  }
+.cls-title{
+  color: #181E4B;
+text-align: center;
+font-family: Volkhov;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 71.042px;
 }
