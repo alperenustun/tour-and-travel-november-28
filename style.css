@@ -3,6 +3,8 @@
 }
 .cls-col{
   border: 3px solid green;
+
+
  
 }
 .paragrahpy{
@@ -20,4 +22,29 @@ font-size: 50px;
 font-style: normal;
 font-weight: 700;
 line-height: 71.042px;
+flex-direction: column;
 }
+.plus{
+  display: flex;
+  transform: translateY(-70px);
+}
+.img{
+  display: flex;
+  gap: 20px;
+ 
+
+}
+.p-2{
+  color: #7D7D7D;
+text-align: center;
+font-family: Poppins;
+font-size: 16.809px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+margin-right: 50px;
+
+
+}
+
