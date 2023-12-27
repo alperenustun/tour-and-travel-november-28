@@ -1,41 +1,187 @@
-.cls-container{
-  border: 3px solid red;
+body {
+  width: 1920px;
+  height: 7815px;
+  background-color: white;
+  position: fixed;
 }
-.cls-col{
-  border: 3px solid green;
 
-
- 
+h3 {
+  color: #df6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
 }
-.paragrahpy{
-  color: #DF6951;
+
+h1 {
+  color: #181e4b;
+  text-align: center;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.flex-container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.flex-container-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 10px; 
+}
+
+.flex-container > div {
+  display: inline-block;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: no-repeat;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+}
+
+.flex-container-two > div {
+  display: inline-block;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: no-repeat;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+}
+
+.flex-container-three > div {
+  display: inline-block;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: no-repeat;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+}
+
+.item {
+  width: 392px;
+  height: 312px;
+  padding: 20px;
+  margin: 10px;
+  position: fixed;
+}
+
+.swiss {
+  width: 96.402px;
+  height: 93.402px;
+  background: url(4.svg) no-repeat;
+  top: 234px;
+  position: relative;
+}
+
+.brazil {
+  width: 96.402px;
+  height: 93.402px;
+  border: none;
+  background: url(5.svg) no-repeat;
+  top: 234px;
+  position: relative;
+}
+
+.egypt {
+  width: 96.402px;
+  height: 93.402px;
+  border: none;
+  background: url(6.svg) no-repeat;
+  top: 234px;
+  position: relative;
+}
+
+.calendar {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: no-repeat;
+  position: fixed;
+  padding: 17px;
+  margin: 86px;
+}
+
+.text {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.809px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.people {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: no-repeat;
+  position: fixed;
+  padding: 17px;
+  margin: -21px;
+}
+
+.text-1 {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16.809px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.title{
+width:176px;
+height:44px;
+color: #2F2F2F;
 text-align: center;
 font-family: Poppins;
-font-size: 18px;
-font-weight: 700;
-}
-.cls-title{
-  color: #181E4B;
-text-align: center;
-font-family: Volkhov;
-font-size: 50px;
+font-size: 29.033px;
 font-style: normal;
 font-weight: 700;
-line-height: 71.042px;
-flex-direction: column;
+line-height: normal;
+text-transform: capitalize;
 }
-.plus{
-  display: flex;
-  transform: translateY(-70px);
-}
-.img{
-  display: flex;
-  gap: 20px;
- 
 
+.location{
+  width: 27.505px;
+  height: 27.505px;
+  flex-shrink: 0;
+  position: fixed; 
 }
-.p-2{
-  color: #7D7D7D;
+
+.text-2{
+color: #7D7D7D;
 text-align: center;
 font-family: Poppins;
 font-size: 16.809px;
@@ -43,8 +189,44 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: capitalize;
-margin-right: 50px;
-
-
+width: 122px;
+height: 25px;
 }
 
+.text-3{
+  color: #DF6951;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 29.033px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize; 
+}
+
+.paragraph{
+width: 393px;
+height: 114px;
+color: black;
+font-family: Poppins;
+font-size: 12.224px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.449px;
+letter-spacing: 0.611px;
+text-align:justify;
+position: relative;
+}
+
+.button{
+display: flex;
+width: 107.897px;
+height: 43.103px;
+padding: 0px 27.937px 7.184px 0px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 31.64px;
+background: #DF6951;
+box-shadow: 0px 15.28px 26.741px 0px rgba(223, 105, 81, 0.15);
+}
