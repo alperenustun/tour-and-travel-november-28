@@ -1,3 +1,4 @@
+<<<<<<<<< Temporary merge branch 1
 /*Section Logos*/
 .partners-images {
   display: flex;
@@ -14,6 +15,47 @@
   height: 40px;
 }
 /*Section Honeymoon*/
+.fly{
+    width: 133.385px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 10px;
+    opacity: 0.44;
+
+
+}
+.trivago{
+    margin-right: 10px;
+    margin-left: 120px;
+    width: 155px;
+    height: 50px;
+    flex-shrink: 0;
+    width: 221px
+
+}
+.airbnb{
+    margin-right: 20px;
+    margin-left: 120px;
+    width: 150.465px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.turkish{
+    margin-left: 65px;
+    width: 162px;
+    height: 50px;
+    flex-shrink: 0;
+}
+.swis{
+  
+    margin-left: 120px;
+    width: 201px;
+    height: 50px;
+    flex-shrink: 0;
+}
+=========
 .section-hm {
   display: flex;
   justify-content: center;
@@ -31,7 +73,7 @@
 }
 
 .hm-title {
-  max-width: 583px;
+  width: 583px;
   font-family: "Volkhov", serif;
   font-size: 50px;
   line-height: 71.04px;
@@ -42,7 +84,7 @@
 .hm-description {
   font-family: "Poppins", sans-serif;
   color: black;
-  max-width: 583px;
+  width: 583px;
   size: 16px;
   line-height: 26px;
   margin-bottom: 25px;
@@ -64,13 +106,10 @@
   font-size: 16.72px;
 }
 
-.hm-image > img{
-  width: 100%;
-}
-/*Section Sightseeing*/
 .section-sst {
-  margin: 50px auto;
+  margin: 0 auto;
   max-width: 1483px;
+  height: 751px;
   position: relative;
 }
 .sst-img-eiffel {
@@ -80,7 +119,8 @@
   top: 38px;
 }
 .sst-subtitle {
-  max-width: 126px;
+  width: 126px;
+  height: 27px;
   color: #df6951;
   font-family: "Poppins", sans-serif;
   size: 18px;
@@ -88,18 +128,22 @@
   letter-spacing: 0.1em;
   margin-bottom: 15px;
 }
+
 .sst-title {
-  max-width: 639px;
+  width: 639px;
+  height: 142px;
   font-family: "Volkhov", serif;
   font-size: 50px;
   line-height: 71.04px;
   color: #181e4b;
   margin-bottom: 25px;
 }
+
 .sst-description {
   font-family: "Poppins", sans-serif;
   color: black;
-  max-width: 574px;
+  width: 574px;
+  height: 103px;
   size: 16px;
   line-height: 26px;
   margin-bottom: 25px;
@@ -118,14 +162,17 @@
   font-size: 16.72px;
   line-height: 25.07px;
 }
+
 .sst-container-images {
   margin-top: 25px;
   display: flex;
   gap: 55px;
 }
+
 .sst-image {
   position: relative;
 }
+
 .sst-price {
   position: absolute;
   width: 83px;
@@ -146,246 +193,4 @@
   font-size: 16px;
   line-height: 24px;
 }
-/*Section Client Say*/
-.section-cs {
-  max-width: 1920px;
-  background-image: url("images/cs-bg-image.png") ;
-  margin: 0px auto;
-  position: relative;
-}
-.cs-header {
-  margin: 0 auto 95px auto;
-  padding-top: 100px;
-  text-align: center;
-}
-.cs-subtitle {
-  color: #df6951;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-  font-size: 18px;
-}
-.cs-title {
-  color: #181e4b;
-  font-family: "Volkhov", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 71px;
-}
-.cs-comment {
-  width: 600px;
-  margin: 0 auto;
-  position: relative;
-}
-.cs-comment-img {
-  position: absolute;
-  top: -22%;
-  right: 50%;
-  transform: translateX(50%);
-}
-.cs-comments-comment {
-  text-align: center;
-  color: black;
-  font-size: 12px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.61px;
-  position: relative;
-  padding-top: 90px;
-}
-.cs-comments-client {
-  color: black;
-  font-size: 12px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.61px;
-  text-align: center;
-  padding-top: 5px;
-}
-.cs-comments-quote-big {
-  width: 82px;
-  height: 82px;
-  z-index: 2;
-  position: absolute;
-  top: 25%;
-  left: 13%;
-}
-.cs-comments-quote-small {
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  bottom: 27%;
-  right: 39%;
-}
-.cs-comment-left-btn {
-  border-radius: 50%;
-  width: 62px;
-  height: 62px;
-  background-color: #737373;
-  border: none;
-  position: absolute;
-  left: -5.5%;
-  bottom: 50%;
-  cursor: pointer;
-  transform: translateY(50%);
-}
-.cs-comment-right-btn {
-  border-radius: 50%;
-  width: 62px;
-  height: 62px;
-  background-color: #737373;
-  border: none;
-  position: absolute;
-  right: -5.5%;
-  bottom: 50%;
-  cursor: pointer;
-  transform: translateY(50%);
-}
-.cs-pagination {
-  width: 127px;
-  height: 2px;
-  margin: 30px auto 66px auto;
-}
-.cs-bg-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-@media (max-width: 1500px) {
-  .section-hm{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-  .hm-content{
-    display: flex;
-    flex-direction: column;
-  }
-  .sst-content{
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 1200px) {
-  .section-sst{
-    background-color: red;
-    flex-wrap: wrap;
-    background: none;
-  }
-  .sst-img-eiffel{
-    display: none;
-  }
-  .sst-container-images{
-    flex-wrap: wrap;
-  }
-  .sst-content{
-    margin: 0 auto;
-    max-width: 583px;
-  }
-  .hm-content{
-    margin: 0 auto;
-    max-width: 583px;
-  }
-  .sst-container-images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cs-bg-image{
-    display: none;
-  }
-  
-
-}
-@media (max-width: 700px) {
-  .section-hm{
-    margin: 25px 10px;
-    gap: 0;
-  }
-  .hm-title{
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .hm-description{
-    margin: 15px auto;
-  }
-  .section-sst{
-    margin: 10px 10px;
-  }
-  .sst-content{
-    display: flex;
-    flex-direction: column;
-  }
-  .sst-title{
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .sst-description{
-    margin: 15px auto;
-  }
-  .sst-view-btn{
-    margin: 0;
-  }
-  .sst-image {
-    width: 100%;
-  }
-  .sst-image > img {
-    width: 100%;
-  }
-  .cs-comment {
-    position: static;
-  }
-  /* .section-cs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-  .cs-header{
-    margin-bottom: 25px;
-  }
-  .cs-comment{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-  }
-  .cs-comments-quote-big,
-  .cs-comments-quote-small
-  {
-    display: none;
-  }
-  .cs-comment-img{
-    position: static;
-    width: 150px;
-    margin: 0 auto;
-    transform: none;
-  }
-  .cs-comments-comment{
-    padding-top: 0;
-    width: 100%;
-  }
-  .cs-title{
-    font-size: 35px;
-    line-height: 45px;
-  }
-  .cs-btns{
-    position: static;
-    margin: 0 auto;
-    
-  }
-  .cs-comment-left-btn{
-    position: static;
-    margin-right: 10px ;
-    width: 50px;
-    height: 50px;
-  }
-  .cs-comment-right-btn{
-    position: static;
-    margin-left: 10px;
-    width: 50px;
-    height: 50px;
-  }
-}
+>>>>>>>>> Temporary merge branch 2
