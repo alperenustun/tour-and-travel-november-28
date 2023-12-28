@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 .down-div {
   display: flex;
@@ -15,7 +14,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 .trend {
   color: #df6951;
@@ -65,10 +63,8 @@
   font-size: 16px;
 }
 .swit,
-.locaiton,
-.dolar,
-.cs-boxer ,
-.cs-point{
+.cs-boxer,
+.cs-point {
   display: flex;
 }
 .star {
@@ -84,60 +80,24 @@
   font-size: 30px;
   font-weight: 700;
 }
-.euro {
-  color: #7d7d7d;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
-}
-.bin {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-  color: #df6951;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 500;
-}
-.bin-2 {
-  color: #7d7d7d;
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 500;
-}
-.paragrapy {
-  color: black;
-  font-family: Poppins;
-  font-size: 12px;
-  font-weight: 400;
-}
-.explore {
-  background-color: #df6951;
-  color: wheat;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-.cs-container{
+.cs-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
 }
-.cs-column{
+.cs-column {
   flex-wrap: wrap;
 }
-.cs-img{
+.cs-img {
   position: relative;
 }
-.eagypt{
+.eagypt {
   position: absolute;
   top: 250px;
-  left:30px;
-  
+  left: 30px;
 }
-.cs-paragrapy{
+.cs-paragrapy {
   display: flex;
   margin-top: 30px;
   color: #7d7d7d;
@@ -145,11 +105,12 @@
   font-weight: 400;
   font-family: Poppins;
 }
-.cs-vol{
+.cs-vol {
   display: flex;
   gap: 30px;
 }
-.cs-day,.cs-vol-2{
+.cs-day,
+.cs-vol-2 {
   display: flex;
   align-items: center;
   margin-top: 30px;
@@ -157,21 +118,20 @@
   font-family: Poppins;
   color: #7d7d7d;
 }
-.cs-giza{
+.cs-title {
   display: flex;
   color: #2f2f2f;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 700;
-
 }
-.cs-p{
+.cs-p {
   color: #7d7d7d;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
 }
-.cs-p3{
+.cs-p3 {
   display: flex;
   color: #df6951;
   font-family: Poppins;
@@ -179,22 +139,23 @@
   font-weight: 500;
   margin-right: 30px;
 }
-.cs-p4{
+.cs-p4 {
   color: #7d7d7d;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 500;
 }
-.cs-text > p{
+.cs-text {
   color: black;
   font-family: Poppins;
   font-size: 12px;
   font-weight: 400;
 }
-.cs-buton{
-background-color: #df6951;
-color: wheat;
-border-radius: 10px;
-margin-top: 20px;
-padding: 10px;
+.cs-buton {
+  background-color: #df6951;
+  color: wheat;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
 }
