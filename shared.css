@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +27,8 @@ a {
   text-decoration: none;
   color: inherit;
 }
+=======
+>>>>>>> 02ca5a8e5ed553958ff2051856aad6d917ccb159
 
 /* Footer Section */
 .footer-section {
